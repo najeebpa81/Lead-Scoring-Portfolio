@@ -7,7 +7,10 @@ Quality Engineer in high tech industries like disk drive and semiconductor→ no
 **Live Projects (click to explore)**
 1. **Bank Marketing – Rule-Based** → 41k clients scored  
 2. **Dubai Real Estate – Rule-Based** → 41k Bayut properties (Arabic-ready)  
-3. **Bank Marketing – Predictive ML + SHAP** → 95 % ROC-AUC with per-lead explanations  
+3. **Bank Marketing – Predictive ML + SHAP** → 95 % ROC-AUC with per-lead explanations
+- Predictive model with full per-lead explanations
+- Live waterfall generator: ask me any lead ID → instant SHAP waterfall
+- Files: [Folder link](03_Bank_Marketing_Predictive_SHAP)
 
 **Interactive Tableau Dashboard** → [Open here](tableau/Lead_Scoring_Portfolio.twbx)  
 **Client Delivery Package Ready** → see `/client_delivery_template`
