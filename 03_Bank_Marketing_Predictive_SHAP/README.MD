@@ -1,85 +1,66 @@
-# 🏦 Bank Predictive Lead Scoring & Classification (GCC Edition)
+# 🏦 Bank Marketing: Predictive Lead Scoring with Explainable AI (XAI)
 
-> **New Visitors:** Please start with the [Welcome_Bank_Predictive_SHAP.pdf](./Welcome_Bank_Predictive_SHAP.pdf) for a high-level executive summary of this project's objectives and results.
+> 🚀 **New Visitors:** To understand the high-level business value and model performance, please start with the **[Welcome_Bank_Predictive_SHAP.pdf](./01_Executive_Summary/Welcome_Bank_Predictive_SHAP.pdf)** in the Executive Summary folder.
 
 ---
 
-## 📂 Project Navigation & Roadmap
+## 📂 Project Roadmap
+To review this project in a logical flow, please explore the folders in numerical order:
 
-To get the most out of this showcase, I recommend exploring the files in the following order:
+1. **[01_Executive_Summary](./01_Executive_Summary)**: Business-focused introduction and high-level ROI summary.
+2. **[02_Documentation](./02_Documentation)**: Deep-dive into model insights, feature importance, and strategic actions.
+3. **[03_Source_Code](./03_Source_Code)**: Full Python implementation (Random Forest) and the Live Waterfall Generator.
+4. **[04_Data_Deliverables](./04_Data_Deliverables)**: The final prioritized lead lists for sales execution.
+5. **[05_Visual_Insights](./05_Visual_Insights)**: SHAP Summary and Waterfall plots illustrating the "Why" behind the AI.
 
-1.  **🚀 [START HERE] `Welcome_Bank_Predictive_SHAP.pdf`**: A professional introduction to the project, intended for business stakeholders.
-2.  **📋 `03_Model_Insights.pdf`**: A deep dive into the SHAP results, explaining the "Why" behind the model's decisions.
-3.  **🧪 `04_Predictive_Scoring_Code.ipynb`**: The full Python implementation, from data cleaning to model training.
-4.  **🎯 `01_Bank_Predictive_Scored_Leads.xlsx`**: The final deliverable—a prioritized list of leads ready for a sales team.
-5.  **⚡ `5_Live_Waterfall_Generator.ipynb`**: An interactive script to generate real-time explanations for any individual customer.
+---
 
-# 🏦 Bank Predictive Lead Scoring & Classification
+## 🛠️ Step-by-Step Technical Process
 
-This project implements a machine learning solution to transform banking outreach from "Mass Marketing" to **"Precision Targeting."** By utilizing an ensemble-based Random Forest model and Explainable AI (SHAP), we identify high-intent leads and prioritize them into actionable tiers for the sales team.
+### 1. Data Ingestion & Engineering
+* **Dataset:** 41,188 client records featuring demographic and historical interaction data.
+* **Encoding:** Converted categorical traits into 53 numeric features using One-Hot Encoding to ensure model compatibility.
 
+### 2. Model Architecture (Random Forest)
+* **Strategy:** Utilized an ensemble of 300 Decision Trees to minimize variance and maximize accuracy.
+* **Performance:** Achieved a **95% ROC-AUC**, ensuring high-confidence separation between subscribers and non-subscribers.
 
-## 🛠️ Technical Process Flow
+### 3. Explainable AI (SHAP Integration)
+* **Transparency:** Integrated SHAP (Shapley Additive Explanations) to transform a "Black Box" model into a fully auditable system.
+* **Waterfall Analysis:** Every individual score can be broken down to show exactly which features (e.g., call duration, previous success) pushed the score up or down.
 
-### 1. Data Ingestion & Feature Engineering
-Converting raw business data into a machine-readable format:
-* **Data Parsing:** Handling non-standard delimiters (semicolons) and encoding binary outcomes (Yes/No to 1/0).
-* **One-Hot Encoding:** Converting categorical variables (Job, Education, Marital Status) into 53 distinct numeric features. 
-
-### 2. Strategic Data Partitioning
-Ensuring the model generalizes well to new market data:
-* **The Holdout Method:** Splitting data into a **Training Set** (logic building) and a **Test Set** (simulating unseen future customers).
-* **Feature-Target Isolation:** Separating independent variables (customer traits) from the dependent variable (subscription outcome).
-
-### 3. Ensemble Model Architecture
-Utilizing a **Random Forest Classifier** to reduce error and variance:
-* **n_estimators (300):** Building 300 unique trees to create a "wisdom of the crowd" effect for higher accuracy.
-* **max_depth (12):** A regularization technique used to prevent **overfitting** by stopping trees from memorizing individual historical noise.
-* **Parallel Processing:** Optimized using `n_jobs=-1` to utilize all available CPU cores for high-speed training.
-
-### 4. Model Training & Heuristics
-The process where the model learns the "rules" of banking conversions:
-* **Bootstrapping:** Training each tree on a different random sample of data to ensure forest diversity.
-* **Feature Randomness:** Forcing trees to consider a random subset of features at each split, preventing over-dependence on a single metric like "Account Balance."
-
-### 5. Performance Validation (ROC-AUC)
-In lead scoring, ranking quality is the primary success metric:
-* **Probabilistic Scoring:** Generating confidence scores between 0.0 and 1.0 using `predict_proba`.
-* **ROC-AUC Metric:** Measuring the model’s ability to distinguish between subscribers and non-subscribers. An **AUC of 0.85** indicates excellent discriminatory power.
-
-### 6. Lead Tiering & Business Logic
-Translating mathematical probabilities into a prioritized sales strategy:
-* **Binning Logic:** Categorizing leads into priority tiers using `pd.cut`:
-    * **Platinum (70%+):** Immediate high-touch contact.
-    * **Gold (50-70%):** Standard sales follow-up.
-    * **Silver (0-50%):** Nurture through automated marketing.
-* **Output Generation:** Exporting a **Scored Leads CSV** for non-technical sales teams.
-
-### 7. Explainable AI (XAI) with SHAP
-Opening the "Black Box" to build stakeholder trust:
-* **Shapley Values:** Using Game Theory to calculate the exact contribution of each feature to an individual prediction.
-* **Global Interpretation:** Using **Summary Plots** to rank the most important drivers across the entire dataset.
-* **Local Interpretation:** Using **Waterfall Plots** to explain the specific "why" behind a single lead's high score.
-
-### 8. Model Serialization & Handover
-Making the project "Production-Ready":
-* **Persistence (joblib):** Saving the trained model object (`.pkl`) to allow for instant scoring of new leads without retraining.
-* **Reproducibility:** Saving the column structure (`model_columns.pkl`) to ensure future data inputs match model expectations.
+### 4. Categorical Lead Tiering
+Probability scores are mapped to a high-velocity sales funnel:
+* **💎 Platinum (70%+):** High-priority leads with confirmed conversion drivers.
+* **🥇 Gold (50-69%):** Strong prospects for standard follow-up.
+* **🥈 Silver (0-49%):** Long-term nurture leads for automated marketing.
 
 ---
 
 ## 📈 Business Impact & ROI
 
-By implementing this predictive system, the following business outcomes are achieved:
+By moving from mass marketing to AI-driven precision, the bank achieves:
 
-* **Increased Conversion Rates:** By prioritizing **Platinum** leads, the sales team focuses on customers **6x more likely to subscribe** than the average lead.
-* **Operational Efficiency:** Reduces "Cold Calling" fatigue. Sales teams can ignore the bottom 50% of the list (Silver tier) where success probability is negligible.
-* **Data-Driven Strategy:** SHAP insights revealed that **call duration** and **previous campaign success** are the primary drivers, allowing for refined sales scripts.
-* **Scalability:** The serialized model processes thousands of new leads in seconds, ensuring a consistent sales pipeline.
-* **Regional Insight:** Specifically optimized for GCC-style banking data, identifying that **call duration** is the primary driver for successful fixed-term deposit subscriptions.
+* **Maximized Conversion:** Platinum leads are **6x more likely to subscribe** than the average lead, significantly increasing the conversion rate of outbound calls.
+* **Operational Efficiency:** Sales teams can ignore the bottom 50% of the list, reducing call fatigue and focusing on high-revenue potential.
+* **Data-Driven Sales Scripts:** Insights identified that **call duration** is the #1 driver of success, allowing managers to train teams on keeping prospects engaged longer.
+* **Instant Scalability:** The serialized model (`.pkl`) can score 10,000+ new leads in seconds every morning.
 
 ---
 
-## 🖼️ Featured Insight: Conversion Drivers
-![SHAP Summary Plot](./SHAP%20Summary.png)
-*Figure 1: Global feature impact. Note how high 'duration' (red dots to the right) is the strongest predictor of a successful subscription.*
+## 🖼️ Model Insights & Visuals
+
+### Global Drivers (SHAP Summary)
+![SHAP Summary](./05_Visual_Insights/SHAP_Summary.png)
+*Figure 1: Visual ranking of features driving deposits, highlighting Call Duration and Previous Success as the dominant factors.*
+
+### Individual Explanation (Waterfall)
+![Waterfall](./05_Visual_Insights/Waterfall.png)
+*Figure 2: A "Live Waterfall" explaining why a specific lead was marked as Platinum.*
+
+---
+
+## 💼 Availability for Hire (UAE / Singapore / GCC)
+Specializing in Predictive Lead Scoring and Explainable AI (XAI).
+
+**Najeeb P.A** [LinkedIn Profile] | najeebpa81@gmail.com | +65 91817634
