@@ -54,6 +54,6 @@ By implementing this rule-based scoring, a Dubai-based agency achieves:
 ---
 
 ## 💼 Contact (UAE/GCC)
-Specializing in Real Estate Data Architecture and Lead Prioritization.
-Mohamed Najeeb P.A
+Specializing in Real Estate Data Architecture and Lead Prioritization.<br>
+Mohamed Najeeb P.A <br>
 Najeebpa81@gmail.com
