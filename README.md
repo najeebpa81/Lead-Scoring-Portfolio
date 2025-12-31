@@ -43,5 +43,5 @@ I help organizations turn static databases into revenue engines through:
 2. **Sales Analytics:** Identifying the "Why" behind your top-performing leads.
 3. **Monthly Retainers:** Regular model refreshing and database audits.
 
-**Najeeb P.A** *Lead Scoring & Predictive Classification Specialist* 
+**Najeeb P.A** *Lead Scoring & Predictive Classification Specialist* <br>
 |najeebpa81@gmail.com | +65 91817634
