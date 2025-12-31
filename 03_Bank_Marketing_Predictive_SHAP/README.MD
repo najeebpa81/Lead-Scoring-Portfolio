@@ -60,7 +60,8 @@ By moving from mass marketing to AI-driven precision, the bank achieves:
 
 ---
 
-## 💼 Availability for Hire (UAE / Singapore / GCC)
+## 💼 Contact (UAE / Singapore / GCC)
 Specializing in Predictive Lead Scoring and Explainable AI (XAI).
 
-**Najeeb P.A** [LinkedIn Profile] | najeebpa81@gmail.com | +65 91817634
+**MOhamed Najeeb P.A** <br>
+najeebpa81@gmail.com | +65 91817634
