@@ -46,7 +46,6 @@ Unlike "Black Box" AI models, this system uses a **transparent weighting engine*
 
 ---
 
-## 💼 Availability for Hire (UAE / Singapore / GCC)
-Specializing in both **Machine Learning** and **Transparent Rule-Based** scoring solutions.
-
+## 💼 Contact (UAE / Singapore / GCC)
+Specializing in both **Machine Learning** and **Transparent Rule-Based** scoring solutions.<br>
 **Najeeb P.A** | najeebpa81@gmail.com | +65 91817634
