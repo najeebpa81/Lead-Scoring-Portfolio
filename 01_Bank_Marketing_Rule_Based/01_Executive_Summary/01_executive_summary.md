@@ -43,7 +43,3 @@ I look forward to helping you close more term deposits, faster.
 Lead Scoring & Predictive Classification  
 
 najeebpa81@gmail.com | +65 91817634
-
-Lead Scoring & Predictive Classification  
-
-najeebpa81@gmail.com | +65 91817634
