@@ -30,17 +30,10 @@ Based on the rule-based analysis of your 41,188 clients, we have identified thre
 2. **The Engagement Metric**: Call duration is the #1 predictor; interactions exceeding 10 minutes are prioritized as "Hot."
 3. **Liability Filtering**: Active housing loan holders convert **60% less often**, allowing you to de-prioritize this segment to save operational costs.
 
-## Next Steps & Implementation
-
-I recommend we schedule a 15-minute strategy call to:
-
-1. Review the Top 50 Leads: Audit the highest-scoring Platinum leads together.
-2. Dialer Integration: Build your priority call list for the sales team.
-3. Maintenance: Discuss monthly campaign updates and logic refinement (optional retainer).
 
 Feel free to reach out if you'd like to discuss the top leads or how to put these insights into action.
 
 **Najeeb P.A**  
-Lead Scoring & Predictive Classification  
 
+Lead Scoring & Predictive Classification  
 najeebpa81@gmail.com | +65 91817634
