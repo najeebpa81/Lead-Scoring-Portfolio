@@ -36,7 +36,7 @@ I recommend we schedule a 15-minute strategy call to:
 2. Dialer Integration: Build your priority call list for the sales team.
 3. Maintenance: Discuss monthly campaign updates and logic refinement (optional retainer).
 
-I look forward to helping you close more term deposits, faster.
+Feel free to reach out if you'd like to discuss the top leads or how to put these insights into action
 
 **Best regards,**  
 **Najeeb P.A**  
