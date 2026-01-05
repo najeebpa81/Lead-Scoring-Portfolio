@@ -31,7 +31,7 @@ By using this ranked approach instead of random dialing, you should observe:
 - **60% Reduction** in wasted calls to low-propensity segments (like those with heavy housing debt).
 - **Higher Agent Morale** due to significantly higher "Yes" rates on the Hot tier.
 
-Feel free to reach out if you'd like to discuss the top leads or how to put these insights into action I offer monthly retainer options to re-score your database as new campaign data arrives.
+Feel free to reach out if you'd like to discuss the top leads or how to put these insights into action.
 
 **Najeeb P.A**  
 Lead Scoring Specialist  
