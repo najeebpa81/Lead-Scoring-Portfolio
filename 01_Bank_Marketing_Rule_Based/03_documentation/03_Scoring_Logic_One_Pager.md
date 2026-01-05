@@ -38,9 +38,9 @@ Based on the final score, leads are automatically routed into three operational 
 2. **Instant Deployment**: No complex AI infrastructure required; runs on standard Python/Excel.
 3. **Audit-Ready**: Perfect for banking compliance where "Black Box" algorithms might face scrutiny.
 
-     Feel free to reach out if you'd like to discuss the top leads or how to put these insights into action
+
+Feel free to reach out if you'd like to discuss the top leads or how to put these insights into action
 
 **Najeeb P.A**  
 Lead Scoring Specialist  
-
 najeebpa81@gmail.com | +65 91817634
