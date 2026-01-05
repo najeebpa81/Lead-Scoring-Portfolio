@@ -25,7 +25,7 @@ This repository showcases advanced data-driven solutions for sales optimization 
 * **Model:** Random Forest Classifier + SHAP (Explainable AI).
 * **Performance:** **95% ROC-AUC** (Top 1% global benchmark).
 * **Logic:** Every score is 100% explainable via SHAP Waterfall plots, revealing hidden conversion drivers.
-* **📂 [View Project & Documentation](./03_Bank_Marketing_Predictive_Scoring)**
+* **📂 [View Project & Documentation](03_Bank_Marketing_Predictive_SHAP)**
 
 ---
 
