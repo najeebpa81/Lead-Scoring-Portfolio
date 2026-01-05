@@ -37,11 +37,19 @@ This repository showcases advanced data-driven solutions for sales optimization 
 
 ---
 
-## 💼 Professional Services (UAE / Singapore / GCC)
-I help organizations turn static databases into revenue engines through:
-1. **Lead Tiering:** Custom scoring engines for CRM integration.
-2. **Sales Analytics:** Identifying the "Why" behind your top-performing leads.
-3. **Monthly Retainers:** Regular model refreshing and database audits.
+## 💼 Areas of Professional Interest (UAE / Singapore / GCC)
 
-**Najeeb P.A** *Lead Scoring & Predictive Classification Specialist* <br>
+My work focuses on applying predictive analytics to sales and risk decisioning. Key areas I explore and develop solutions for:
+
+1. **Lead Tiering & Scoring**  
+   Building custom models to prioritize high-potential leads using historical and behavioral data.
+
+2. **Sales Performance Analytics**  
+   Identifying patterns and drivers behind successful conversions to support data-driven strategies.
+
+3. **Model Maintenance & Data Quality**  
+   Regular refinement of scoring systems and audits to ensure sustained accuracy in dynamic environments.
+
+**Najeeb P.A** 
+*Lead Scoring & Predictive Classification Specialist* <br>
 najeebpa81@gmail.com | +65 91817634
