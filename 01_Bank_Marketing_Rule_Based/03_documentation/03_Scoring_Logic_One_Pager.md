@@ -32,15 +32,15 @@ Based on the final score, leads are automatically routed into three operational 
 - **Cold (Score 0-49)**: The "Marketing" List. No strong signals of immediate intent.  
   **Action:** Route to automated SMS/Email drip campaigns to save agent time.
 
-  Feel free to reach out if you'd like to discuss the top leads or how to put these insights into action
-
-**Najeeb P.A**  
-Lead Scoring Specialist  
-
-najeebpa81@gmail.com | +65 91817634
-
 ## Why this Rule-Based Approach?
 
 1. **100% Transparent**: Every score is explainable to the sales agent.
 2. **Instant Deployment**: No complex AI infrastructure required; runs on standard Python/Excel.
 3. **Audit-Ready**: Perfect for banking compliance where "Black Box" algorithms might face scrutiny.
+
+     Feel free to reach out if you'd like to discuss the top leads or how to put these insights into action
+
+**Najeeb P.A**  
+Lead Scoring Specialist  
+
+najeebpa81@gmail.com | +65 91817634
