@@ -53,7 +53,7 @@ I provide high-level consultancy for firms requiring precision-engineered data s
 
 ## 📩 Connect & Collaborate
 
-**Najeeb P.A** *Senior Industrial AI Consultant | Lead Scoring & Predictive Classification Specialist* 
-**Location:** Singapore (Remote Freelance covering UAE & SEA)  
-**Expertise:** Analytical Chemistry | Precision Engineering | Quality Management (TS 16949/ISO 9001)
+**Najeeb P.A** *Senior Industrial AI Consultant | Lead Scoring & Predictive Classification Specialist* <br>
+**Location:** Singapore (Remote Freelance covering UAE & SEA)  <br>
+**Expertise:** Analytical Chemistry | Precision Engineering | Quality Management (TS 16949/ISO 9001) <br>
 najeebpa81@gmail.com | +65 91817634
