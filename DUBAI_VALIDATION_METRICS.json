@@ -1,0 +1,10 @@
+{
+  "records": 41381,
+  "columns": 22,
+  "segments": {
+    "Low (<=50)": 24338,
+    "Medium (51-90)": 14003,
+    "High (>90)": 3040
+  },
+  "missing_segments": 0
+}

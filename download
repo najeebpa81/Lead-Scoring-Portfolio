@@ -1,0 +1,9 @@
+*.csv
+*.xlsx
+*.xls
+*.twbx
+*.hyper
+*.joblib
+__pycache__/
+.ipynb_checkpoints/
+.env

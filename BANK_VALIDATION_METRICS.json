@@ -1,0 +1,21 @@
+{
+  "rows": 41188,
+  "bank_rule_tiers": {
+    "Cold": 40448,
+    "Warm": 740,
+    "Hot": 0
+  },
+  "roc_auc": 0.8148025930943907,
+  "average_precision": 0.48973190138078726,
+  "confusion_matrix": [
+    [
+      9011,
+      126
+    ],
+    [
+      879,
+      281
+    ]
+  ],
+  "shap_rows": 80
+}
