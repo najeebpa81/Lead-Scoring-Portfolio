@@ -2,6 +2,14 @@
 
 Three learning projects comparing transparent rule-based scoring, property-listing segmentation, and predictive classification with SHAP. These are retrospective portfolio exercises, not deployed client systems.
 
+## Business value and potential client deliverables
+
+Businesses often need to make sense of customer or inventory records before deciding where to focus attention. These projects demonstrate three **analytical methods** that could inform a tailored engagement: transparent segmentation rules, descriptive inventory grouping, and historical predictive modeling with explanations.
+
+A commissioned engagement could include a data-quality review, clearly documented scoring or segmentation logic, a management-ready summary of distributions and model limitations, and a reproducible analysis notebook. Any real-world use would require access to authorized client data, agreed success measures, and validation against that client's workflow.
+
+**Portfolio evidence, not a product claim:** The examples below are learning projects. They are not deployed solutions, have not established measured client ROI, and should not be represented as ready-made systems for a buyer.
+
 ## Projects
 
 1. **[Bank Marketing — Rule-Based Scoring](01_Bank_Marketing_Rule_Based/)** — heuristic scoring of historical bank campaign records.
